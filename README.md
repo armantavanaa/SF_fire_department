@@ -8,4 +8,4 @@ The process of this project:
 1. We first put the data up on aws s3 buckets and used spark to read them in.
 2. We found another dataset on funding of deparments in SF to merge in with our main dataset for us to explore the possibility of funding being an important factor for the repsonse time of the fire department.
 3. We then used pyspark to preporcess our data and make sure is all ready for us to create data frames and graphs.
-4. We then used spark to creat spark dataframes and then by using spark dataframes we were able to create graphs to visualize average response time against year, budget, unit type, and by neighborhood.
+4. We then used spark to create spark dataframes and then by using spark dataframes we were able to create graphs to visualize average response time against year, budget, unit type, and by neighborhood.
